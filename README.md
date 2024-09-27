@@ -6,7 +6,7 @@ insert information here
 ---
 
 ## Parenthood
-[itch](https://yrgo-game-creator.itch.io/parenthood)
+[itch](https://yrgo-game-creator.itch.io/parenthood) [youtube](https://www.youtube.com/watch?v=uss46DK8tEI)
 
 ```
 Duration:   7 weeks
@@ -26,7 +26,7 @@ Team:       3 Programmers, 3 Artists
 </table>
 
 ## Swift G4
-[itch](https://yrgo-game-creator.itch.io/swiftg4)
+[itch](https://yrgo-game-creator.itch.io/swiftg4) [youtube](https://www.youtube.com/watch?v=rTBost7tW_s)
 
 ```
 Duration:   8 weeks
