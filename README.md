@@ -6,6 +6,7 @@ insert information here
 ---
 
 ## Parenthood
+[itch](https://yrgo-game-creator.itch.io/parenthood)
 
 ```
 Duration:   7 weeks
@@ -15,6 +16,7 @@ Team:       3 Programmers, 3 Artists
 ```
 
 ## Swift G4
+[itch](https://yrgo-game-creator.itch.io/swiftg4)
 
 ```
 Duration:   8 weeks
@@ -29,7 +31,7 @@ Team:       4 Programmers, 4 Artists
 Duration:   x weeks
 Engine:     Unreal Engine 5
 Genre:      x
-Team:       Solo
+Team:       Solo Project
 ```
 
 ## Wick The Flame
