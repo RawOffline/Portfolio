@@ -75,3 +75,9 @@ Engine:     Unity
 Genre:      2D Top-Down Shooter
 Team:       3 Programmers, 2 Artists
 ```
+<table>
+  <tr>
+    <td width="50%"><img src="/Gifs/KaBOOMkins_1.gif" /></td>
+    <td width="50%"><img src="/Gifs/KaBOOMkins_2.gif" /></td>
+  </tr>
+</table>
