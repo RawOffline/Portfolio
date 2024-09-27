@@ -54,6 +54,9 @@ Genre:      x
 Team:       Solo Project
 ```
 
+# Smaller Projects
+---
+
 ## Wick The Flame
 
 ```
