@@ -10,8 +10,8 @@ insert information here
 ```
 Duration:   7 weeks
 Engine:     Unity
-Genre:      2D Platformer
-Team:       3 Programmers, 3 Artist
+Genre:      2D Casual Platformer
+Team:       3 Programmers, 3 Artists
 ```
 
 ## Swift G4
@@ -20,7 +20,7 @@ Team:       3 Programmers, 3 Artist
 Duration:   8 weeks
 Engine:     Unreal Engine 5
 Genre:      First-Person Parkour
-Team:       4 Programmers, 4 Artist
+Team:       4 Programmers, 4 Artists
 ```
 
 ## Existential Crisis
@@ -34,4 +34,19 @@ Team:       Solo
 
 ## Wick The Flame
 
-## Ka-boom-kins
+```
+Duration:   1 week
+Engine:     Unity
+Genre:      2D Platformer
+Team:       3 Programmers, 2 Artists
+```
+
+## KaBOOMkins
+[itch](https://selmas.itch.io/kaboomkin)
+
+```
+Duration:   1 week
+Engine:     Unity
+Genre:      2D Top-Down Shooter
+Team:       3 Programmers, 2 Artists
+```
