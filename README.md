@@ -61,6 +61,16 @@ Engine:     Unity
 Genre:      2D Platformer
 Team:       3 Programmers, 2 Artists
 ```
+<table>
+  <tr>
+    <td width="50%"><img src="/Gifs/WickTheFlame_1.gif" /></td>
+    <td width="50%"><img src="/Gifs/WickTheFlame_2.gif" /></td>
+  </tr>
+    <tr>
+    <td width="50%"><img src="/Gifs/WickTheFlame_3.gif" /></td>
+    <td width="50%"><img src="/Gifs/WickTheFlame_4.gif" /></td>
+  </tr>
+</table>
 
 ## KaBOOMkins
 [itch](https://selmas.itch.io/kaboomkin)
