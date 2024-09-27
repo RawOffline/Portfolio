@@ -6,7 +6,7 @@ insert information here
 ---
 
 ## Parenthood
-[itch](https://yrgo-game-creator.itch.io/parenthood)
+[itch](https://yrgo-game-creator.itch.io/parenthood) [youtube](https://www.youtube.com/watch?v=uss46DK8tEI)
 
 ```
 Duration:   7 weeks
@@ -14,9 +14,19 @@ Engine:     Unity
 Genre:      2D Casual Platformer
 Team:       3 Programmers, 3 Artists
 ```
+<table>
+  <tr>
+    <td width="50%"><img src="/Gifs/Parenthood_1.gif" /></td>
+    <td width="50%"><img src="/Gifs/Parenthood_2.gif" /></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/Images/SwiftG4_3.png" /></td>
+    <td width="50%"><img src="/Images/SwiftG4_4.png" /></td>
+  </tr>
+</table>
 
 ## Swift G4
-[itch](https://yrgo-game-creator.itch.io/swiftg4)
+[itch](https://yrgo-game-creator.itch.io/swiftg4) [youtube](https://www.youtube.com/watch?v=rTBost7tW_s)
 
 ```
 Duration:   8 weeks
@@ -43,6 +53,9 @@ Engine:     Unreal Engine 5
 Genre:      x
 Team:       Solo Project
 ```
+
+# Smaller Projects
+---
 
 ## Wick The Flame
 
