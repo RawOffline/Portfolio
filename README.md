@@ -16,6 +16,10 @@ Team:       3 Programmers, 3 Artists
 ```
 <table>
   <tr>
+    <td width="50%"><img src="/Images/Parenthood_1.png" /></td>
+    <td width="50%"><img src="/Images/Parenthood_2.png" /></td>
+  </tr>
+  <tr>
     <td width="50%"><img src="/Gifs/Parenthood_1.gif" /></td>
     <td width="50%"><img src="/Gifs/Parenthood_2.gif" /></td>
   </tr>
