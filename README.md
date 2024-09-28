@@ -53,6 +53,16 @@ Engine:     Unreal Engine 5
 Genre:      x
 Team:       Solo Project
 ```
+<table>
+  <tr>
+    <td width="50%"><img src="/Images/ExistentialCrisis_1.png" /></td>
+    <td width="50%"><img src="/Gifs/ExistentialCrisis_1.gif" /></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/Gifs/ExistentialCrisis_2.gif" /></td>
+    <td width="50%"><img src="/Gifs/ExistentialCrisis_3.gif" /></td>
+  </tr>
+</table>
 
 # Smaller Projects
 ---
