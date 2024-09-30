@@ -1,7 +1,19 @@
 # Parenthood
 
+| Explanation | Example |
+| --- | --- |
+| x | Squish and Squash gif |
+
 <details>
-<summary>BurstLight</summary>
+<summary>Squish and Squash</summary>
+</details>
+
+| Explanation | Example |
+| --- | --- |
+| x | insert gif of Expand Light |
+
+<details>
+<summary>ExpandLight.cs</summary>
   
 ```cs
 public class ExpandLight : MonoBehaviour
@@ -50,6 +62,10 @@ public class ExpandLight : MonoBehaviour
 
 ```
 </details>
+
+| Explanation | Example |
+| --- | --- |
+| x | <img src="/Gifs/Parenthood_Follow.gif" alt="References" width="400" height="auto"> |
 
 <details>
 <summary>Follow.cs</summary>
