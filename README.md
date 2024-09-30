@@ -25,7 +25,7 @@ Team:       3 Programmers, 3 Artists
   </tr>
 </table>
 
-## Swift G4
+## [___Swift G4___](/SwiftG4) &nbsp;
 [itch](https://yrgo-game-creator.itch.io/swiftg4) [youtube](https://www.youtube.com/watch?v=rTBost7tW_s)
 
 ```
