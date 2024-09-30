@@ -2,6 +2,17 @@
 
 Role: Level Designer
 
+<table>
+  <tr>
+    <td width="50%"><img src="/Gifs/SwiftG4_2.gif" /></td>
+    <td width="50%"><img src="/Gifs/SwiftG4_3.gif" /></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/Gifs/SwiftG4_4.gif" /></td>
+    <td width="50%"><img src="/Gifs/SwiftG4_5.gif" /></td>
+  </tr>
+</table>
+
 ## Level Design
 
 | Explanation | Example |
