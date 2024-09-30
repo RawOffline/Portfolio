@@ -10,7 +10,7 @@
 
 | Explanation | Example |
 | --- | --- |
-| x | insert gif of Expand Light |
+| x | <img src="/Gifs/Parenthood_Light.gif" alt="References" width="400" height="auto"> |
 
 <details>
 <summary>ExpandLight.cs</summary>
