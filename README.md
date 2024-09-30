@@ -5,7 +5,7 @@ insert information here
 # Projects
 ---
 
-## Parenthood
+## [Parenthood](/Parenthood) &nbsp;
 [itch](https://yrgo-game-creator.itch.io/parenthood) [youtube](https://www.youtube.com/watch?v=uss46DK8tEI)
 
 ```
@@ -25,7 +25,7 @@ Team:       3 Programmers, 3 Artists
   </tr>
 </table>
 
-## [___Swift G4___](/SwiftG4) &nbsp;
+## [Swift G4](/SwiftG4) &nbsp;
 [itch](https://yrgo-game-creator.itch.io/swiftg4) [youtube](https://www.youtube.com/watch?v=rTBost7tW_s)
 
 ```
