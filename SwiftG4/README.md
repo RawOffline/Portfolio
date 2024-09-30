@@ -26,6 +26,6 @@ This mentality was used throughout the majority of the Level Design and it lead 
 
 | Explanation | Example |
 | --- | --- |
-| Indeed, using lights and colors was the answer. In the example above, there's a hallway to take on the far left side, but the pillars are blocking the view of the player as the come running in. <br> <br> By using two neon signs, a red _(Stop)_ one on the right and a green _(Go)_ one on the left that looks like arrows pointing to the direction of the hallway, it made things much clearer. | <img src="/Images/SwiftG4_LD4.png" alt="References" width="500" height="auto"> |
+| Indeed, using lights and colors was the answer. In the example above, there's a hallway to take on the far left side, but the pillars are blocking the view of the player as they come running in. <br> <br> By using two neon signs, a red _(Stop)_ one on the right and a green _(Go)_ one on the left that looks like arrows pointing to the direction of the hallway, it made things much clearer. | <img src="/Images/SwiftG4_LD4.png" alt="References" width="500" height="auto"> |
 | This mentality then allowed me to build more creative and interesting scenes, such as this broken, dark hallway with flickering red lights leading the player to the exit. | <img src="/Images/SwiftG4_Lights.png" alt="References" width="500" height="auto"> |
 | Another example of the mentality used above with the flickering lights showing the path. | <img src="/Gifs/SwiftG4_1.gif" alt="References" width="500" height="auto"> |
