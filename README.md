@@ -59,7 +59,7 @@ Team:       Solo Project
 ```
 <table>
   <tr>
-    <td width="50%"><img src="/Images/ExistentialCrisis_1.jpg" /></td>
+    <td width="50%"><img src="/Images/ExistentialCrisis_1.png" /></td>
     <td width="50%"><img src="/Gifs/ExistentialCrisis_1.gif" /></td>
   </tr>
   <tr>
