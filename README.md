@@ -6,7 +6,6 @@ insert information here
 ---
 
 ## [Swift G4](/SwiftG4) &nbsp; ← Click here!
-[itch](https://yrgo-game-creator.itch.io/swiftg4) [youtube](https://www.youtube.com/watch?v=rTBost7tW_s)
 
 ```
 Duration:   04/2024 - 06/2024 (8 weeks) — 5th Project
@@ -14,6 +13,7 @@ Engine:     Unreal Engine 5
 Genre:      First-Person Parkour
 Team:       4 Programmers, 4 Artists
 ```
+[itch](https://yrgo-game-creator.itch.io/swiftg4) [youtube](https://www.youtube.com/watch?v=rTBost7tW_s) <br>
 <table>
   <tr>
     <td width="50%"><img src="/Images/SwiftG4_1.jpg" /></td>
@@ -24,6 +24,8 @@ Team:       4 Programmers, 4 Artists
     <td width="50%"><img src="/Images/SwiftG4_4.jpg" /></td>
   </tr>
 </table>
+
+Swift G4 is a First-Person Parkour game heavily inspired by [Mirror's Edge](https://store.steampowered.com/app/17410/Mirrors_Edge/). <br> <br> For more information about Swift G4 and my contribution, click [here](/SwiftG4)!
 
 ## [Parenthood](/Parenthood) &nbsp; ← Click here!
 [itch](https://yrgo-game-creator.itch.io/parenthood) [youtube](https://www.youtube.com/watch?v=uss46DK8tEI)
@@ -45,12 +47,14 @@ Team:       3 Programmers, 3 Artists
   </tr>
 </table>
 
+Parenthood is a game about... Parenthood! It's a 2D Platformer that's meant to focus on the journey of a parent and their child. <br> <br> For more information about Parenthood and my contribution, click [here](/Parenthood)!
+
 ## Existential Crisis
 
 ```
 Duration:   2024 (4 weeks) — 4th Project
 Engine:     Unreal Engine 5
-Genre:      x
+Genre:      Experimental Walking Simulator
 Team:       Solo Project
 ```
 <table>
