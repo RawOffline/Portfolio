@@ -8,7 +8,7 @@ Genre:      2D Casual Platformer
 Team:       3 Programmers, 3 Artists
 ```
 
-Parenthood is a game about... Parenthood! It's a 2D Platformer that's meant to focus on the journey and story rather than the skills. <br> <br> What made this game unique and challenging was the idea of portraying an emotional story simply through two circles. Much of my work was to focus on exactly that, how do I as a programmer code in a way where I'm able to portray these feelings and emotions through scripts?
+Parenthood is a game about... Parenthood! It's a 2D Platformer that's meant to focus on the journey of a parent and their child. <br> <br> What made this game unique and challenging was the idea of portraying an emotional story simply through two circles. Much of my work was to focus on exactly that, how do I as a programmer code in a way where I'm able to portray these feelings and emotions through scripts?
 
 <table>
   <tr>
