@@ -8,64 +8,11 @@
 <summary>Squish and Squash</summary>
 </details>
 
-| Explanation | Example |
-| --- | --- |
-| x | insert gif of Expand Light |
-
-<details>
-<summary>ExpandLight.cs</summary>
-  
-```cs
-public class ExpandLight : MonoBehaviour
-{
-  public Light2D light2D;
-  public float expansionDuration = 3f;
-  public float maxIntensity = 1f;
-  
-  private bool isExpanding = false;
-
-  void Update()
-  {
-      if (Input.GetKeyDown(KeyCode.E) && !isExpanding)
-      StartCoroutine(BurstLight());
-  }
-    
-  IEnumerator BurstLight()
-  {
-      isExpanding = true;
-  
-      light2D.intensity = 0f;
-  
-      float elapsedTime = 0f;
-      while (elapsedTime < expansionDuration)
-      {
-          light2D.intensity = Mathf.Lerp(0f, maxIntensity, elapsedTime / expansionDuration);
-          elapsedTime += Time.deltaTime;
-          yield return null;
-      }
-  
-      yield return new WaitForSeconds(0.5f);
-  
-      elapsedTime = 0f;
-      while (elapsedTime < 0.5f)
-      {
-          light2D.intensity = Mathf.Lerp(maxIntensity, 0f, elapsedTime / 0.5f);
-          elapsedTime += Time.deltaTime;
-          yield return null;
-      }
-  
-      light2D.intensity = 0f;
-  
-      isExpanding = false;
-  }
-}
-
-```
-</details>
+---
 
 | Explanation | Example |
 | --- | --- |
-| x | <img src="/Gifs/Parenthood_Follow.gif" alt="References" width="400" height="auto"> |
+| The first thing I worked on in this project was the Follow mechanic. When the player presses E, the parent calls out for their child, who comes running to them. <br> <br> I wanted to build this in a way that feels light-hearted but also sporadic (like a kid). The method that really nailed this for me was by using random jump intervals and force, while keeping the values quite low. Once the child has catched up with their parent, they're back to normal. <br> <br> _If you time it perfectly, the child might land on top of the parents head!_ | <img src="/Gifs/Parenthood_Follow.gif" alt="References" width="400" height="auto"> |
 
 <details>
 <summary>Follow.cs</summary>
@@ -95,7 +42,7 @@ public class Follow : MonoBehaviour
 
   private float timeSinceLastJump = 0f;
   private float jumpInterval = 0f;
-  private float jumpForce;
+  private float jumpForce = 0f;
 
   void Start()
   {
@@ -158,6 +105,63 @@ public class Follow : MonoBehaviour
   {
       if (collision.transform == target)
           isFollowing = false;
+  }
+}
+
+```
+</details>
+
+---
+
+| Explanation | Example |
+| --- | --- |
+| Continuing with the Follow function and the parent _calling_ out for their child. <br> <br> We wanted to make the call visible but still minimal, to make sure that it fits the theme that we're going for. So I went with a simple but effective increase of light around the characters. <br> <br> The light gradually increases, and once it reaches maxIntensity, it stays at that value for a very short duration and then quickly decreases. | <img src="/Gifs/Parenthood_Light.gif" alt="References" width="400" height="auto"> |
+
+<details>
+<summary>ExpandLight.cs</summary>
+  
+```cs
+public class ExpandLight : MonoBehaviour
+{
+  public Light2D light2D;
+  public float expansionDuration = 3f;
+  public float maxIntensity = 1f;
+  
+  private bool isExpanding = false;
+
+  void Update()
+  {
+      if (Input.GetKeyDown(KeyCode.E) && !isExpanding)
+      StartCoroutine(BurstLight());
+  }
+    
+  IEnumerator BurstLight()
+  {
+      isExpanding = true;
+  
+      light2D.intensity = 0f;
+  
+      float elapsedTime = 0f;
+      while (elapsedTime < expansionDuration)
+      {
+          light2D.intensity = Mathf.Lerp(0f, maxIntensity, elapsedTime / expansionDuration);
+          elapsedTime += Time.deltaTime;
+          yield return null;
+      }
+  
+      yield return new WaitForSeconds(0.5f);
+  
+      elapsedTime = 0f;
+      while (elapsedTime < 0.5f)
+      {
+          light2D.intensity = Mathf.Lerp(maxIntensity, 0f, elapsedTime / 0.5f);
+          elapsedTime += Time.deltaTime;
+          yield return null;
+      }
+  
+      light2D.intensity = 0f;
+  
+      isExpanding = false;
   }
 }
 

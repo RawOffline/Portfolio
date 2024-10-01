@@ -5,26 +5,6 @@ insert information here
 # Projects
 ---
 
-## [Parenthood](/Parenthood) &nbsp;
-[itch](https://yrgo-game-creator.itch.io/parenthood) [youtube](https://www.youtube.com/watch?v=uss46DK8tEI)
-
-```
-Developed:  11/2023 - 01/2024 (7 weeks) — 3rd Project
-Engine:     Unity
-Genre:      2D Casual Platformer
-Team:       3 Programmers, 3 Artists
-```
-<table>
-  <tr>
-    <td width="50%"><img src="/Images/Parenthood_1.png" /></td>
-    <td width="50%"><img src="/Images/Parenthood_2.png" /></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="/Gifs/Parenthood_1.gif" /></td>
-    <td width="50%"><img src="/Gifs/Parenthood_2.gif" /></td>
-  </tr>
-</table>
-
 ## [Swift G4](/SwiftG4) &nbsp;
 [itch](https://yrgo-game-creator.itch.io/swiftg4) [youtube](https://www.youtube.com/watch?v=rTBost7tW_s)
 
@@ -42,6 +22,26 @@ Team:       4 Programmers, 4 Artists
   <tr>
     <td width="50%"><img src="/Images/SwiftG4_3.png" /></td>
     <td width="50%"><img src="/Images/SwiftG4_4.png" /></td>
+  </tr>
+</table>
+
+## [Parenthood](/Parenthood) &nbsp;
+[itch](https://yrgo-game-creator.itch.io/parenthood) [youtube](https://www.youtube.com/watch?v=uss46DK8tEI)
+
+```
+Developed:  11/2023 - 01/2024 (7 weeks) — 3rd Project
+Engine:     Unity
+Genre:      2D Casual Platformer
+Team:       3 Programmers, 3 Artists
+```
+<table>
+  <tr>
+    <td width="50%"><img src="/Images/Parenthood_1.png" /></td>
+    <td width="50%"><img src="/Images/Parenthood_2.png" /></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/Gifs/Parenthood_1.gif" /></td>
+    <td width="50%"><img src="/Gifs/Parenthood_2.gif" /></td>
   </tr>
 </table>
 
