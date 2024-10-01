@@ -48,7 +48,7 @@ Team:       3 Programmers, 3 Artists
 ## Existential Crisis
 
 ```
-Duration:   2024 (x weeks) — 4th Project
+Duration:   2024 (4 weeks) — 4th Project
 Engine:     Unreal Engine 5
 Genre:      x
 Team:       Solo Project
