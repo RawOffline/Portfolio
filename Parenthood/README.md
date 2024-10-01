@@ -1,57 +1,21 @@
 # Parenthood
-
-| Squish and Stretch | Example |
-| --- | --- |
-| We wanted a bit of bounce and fluidity in our characters. So I wrote this 'Squish and Stretch' script to make them more dynamic and expressive. | <img src="/Gifs/Parenthood_SaS.gif" alt="References" width="200" height="auto"> |
-
-<details>
-<summary>SquishAndStretch.cs</summary>
-
-```cs
-public class SquishAndStretch : MonoBehaviour
-{
-    public Transform Sprite;
-    public float Stretch = 0.1f;
-    [SerializeField] private Transform squashParent;
-
-    private Rigidbody2D _rigidbody;
-    private Vector3 _originalScale;
-
-    private void Start()
-    {
-        _rigidbody = GetComponent<Rigidbody2D>();
-        _originalScale = Sprite.transform.localScale;
-
-        if (!squashParent)
-            squashParent = new GameObject($"_squash_{name}").transform;
-    }
-
-    private void Update()
-    {
-        Sprite.parent = transform;
-        Sprite.localPosition = Vector3.zero;
-        Sprite.localScale = _originalScale;
-        Sprite.localRotation = Quaternion.identity;
-
-        squashParent.localScale = Vector3.one;
-        squashParent.position = transform.position;
-
-        Vector3 velocity = _rigidbody.velocity;
-
-        if (velocity.sqrMagnitude > 0.01f)
-            squashParent.rotation = Quaternion.FromToRotation(Vector3.right, velocity);
-
-        float scaleX = 1.0f + (velocity.magnitude * Stretch);
-        float scaleY = 1.0f / scaleX;
-
-        Sprite.parent = squashParent;
-        squashParent.localScale = new Vector3(scaleX, scaleY, 1.0f);
-    }
-}
-
+[itch](https://yrgo-game-creator.itch.io/parenthood) [youtube](https://www.youtube.com/watch?v=uss46DK8tEI)
 
 ```
-</details>
+Developed:  11/2023 - 01/2024 (7 weeks) — 3rd Project
+Engine:     Unity
+Genre:      2D Casual Platformer
+Team:       3 Programmers, 3 Artists
+```
+
+Parenthood is a game about... Parenthood! It's a 2D Platformer that's meant to focus on the journey and story rather than the skills. <br> <br> What made this game unique and challenging was the idea of portraying an emotional story simply through two circles. Much of my work was to focus on exactly that, how do I as a programmer code in a way where I'm able to portray these feelings and emotions through scripts?
+
+<table>
+  <tr>
+    <td width="50%"><img src="/Gifs/Parenthood_1.gif" /></td>
+    <td width="50%"><img src="/Gifs/Parenthood_2.gif" /></td>
+  </tr>
+</table>
 
 ---
 
@@ -158,9 +122,64 @@ public class Follow : MonoBehaviour
 
 ---
 
+| Squish and Stretch | Example |
+| --- | --- |
+| I wanted a bit of bounce and fluidity in our characters to make them come to life. <br> So I wrote this 'Squish and Stretch' script to make them more dynamic and expressive. | <img src="/Gifs/Parenthood_SaS.gif" alt="References" width="200" height="auto"> |
+
+<details>
+<summary>SquishAndStretch.cs</summary>
+
+```cs
+public class SquishAndStretch : MonoBehaviour
+{
+    public Transform Sprite;
+    public float Stretch = 0.1f;
+    [SerializeField] private Transform squashParent;
+
+    private Rigidbody2D _rigidbody;
+    private Vector3 _originalScale;
+
+    private void Start()
+    {
+        _rigidbody = GetComponent<Rigidbody2D>();
+        _originalScale = Sprite.transform.localScale;
+
+        if (!squashParent)
+            squashParent = new GameObject($"_squash_{name}").transform;
+    }
+
+    private void Update()
+    {
+        Sprite.parent = transform;
+        Sprite.localPosition = Vector3.zero;
+        Sprite.localScale = _originalScale;
+        Sprite.localRotation = Quaternion.identity;
+
+        squashParent.localScale = Vector3.one;
+        squashParent.position = transform.position;
+
+        Vector3 velocity = _rigidbody.velocity;
+
+        if (velocity.sqrMagnitude > 0.01f)
+            squashParent.rotation = Quaternion.FromToRotation(Vector3.right, velocity);
+
+        float scaleX = 1.0f + (velocity.magnitude * Stretch);
+        float scaleY = 1.0f / scaleX;
+
+        Sprite.parent = squashParent;
+        squashParent.localScale = new Vector3(scaleX, scaleY, 1.0f);
+    }
+}
+
+
+```
+</details>
+
+---
+
 | Expand Light | Example |
 | --- | --- |
-| Continuing with the Follow function and the parent _calling_ out for their child. <br> <br> We wanted to make the call visible but still minimal, to make sure that it fits the theme that we're going for. So I went with a simple but effective increase of light around the characters. <br> <br> The light gradually increases, and once it reaches maxIntensity, it stays at that value for a very short duration and then quickly decreases. | <img src="/Gifs/Parenthood_Light.gif" alt="References" width="400" height="auto"> |
+| Continuing with the Follow function and the parent _calling_ out for their child. <br> <br> I wanted to make the call visible but still minimal, to make sure that it fits the theme that we're going for. So I went with a simple but effective increase of light around the characters. <br> <br> The light gradually increases, and once it reaches maxIntensity, it stays at that value for a very short duration and then quickly decreases. | <img src="/Gifs/Parenthood_Light.gif" alt="References" width="400" height="auto"> |
 
 <details>
 <summary>ExpandLight.cs</summary>
@@ -212,3 +231,15 @@ public class ExpandLight : MonoBehaviour
 
 ```
 </details>
+
+## Environmental Storytelling
+
+Continuing with the idea of our minimalistic storytelling, I started delving into Environmental Storytelling. I worked on some different stuff that was used throughout most of the scenes, such as... <br>
+- Rain — In three layers (different sizes). The closest ones bounce off the platforms/characters.
+- Rolling Fog — For a moody/cold feeling.
+- Dust Particles — The dust particles are transparent circles similar to the parent and child... _eerie?_
+- Stars
+
+| Rain | Fog, Dust & Stars |
+| --- | --- |
+| <img src="/Gifs/Parenthood_Rain.gif" alt="References" width="auto" height="auto"> | <img src="/Gifs/Parenthood_Environmental.gif" alt="References" width="auto" height="auto"> |
