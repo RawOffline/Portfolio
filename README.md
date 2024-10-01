@@ -16,12 +16,12 @@ Team:       4 Programmers, 4 Artists
 ```
 <table>
   <tr>
-    <td width="50%"><img src="/Images/SwiftG4_1.png" /></td>
-    <td width="50%"><img src="/Images/SwiftG4_2.png" /></td>
+    <td width="50%"><img src="/Images/SwiftG4_1.jpg" /></td>
+    <td width="50%"><img src="/Images/SwiftG4_2.jpg" /></td>
   </tr>
   <tr>
-    <td width="50%"><img src="/Images/SwiftG4_3.png" /></td>
-    <td width="50%"><img src="/Images/SwiftG4_4.png" /></td>
+    <td width="50%"><img src="/Images/SwiftG4_3.jpg" /></td>
+    <td width="50%"><img src="/Images/SwiftG4_4.jpg" /></td>
   </tr>
 </table>
 
@@ -36,8 +36,8 @@ Team:       3 Programmers, 3 Artists
 ```
 <table>
   <tr>
-    <td width="50%"><img src="/Images/Parenthood_1.png" /></td>
-    <td width="50%"><img src="/Images/Parenthood_2.png" /></td>
+    <td width="50%"><img src="/Images/Parenthood_1.jpg" /></td>
+    <td width="50%"><img src="/Images/Parenthood_2.jpg" /></td>
   </tr>
   <tr>
     <td width="50%"><img src="/Gifs/Parenthood_1.gif" /></td>
