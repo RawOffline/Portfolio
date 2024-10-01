@@ -232,6 +232,8 @@ public class ExpandLight : MonoBehaviour
 ```
 </details>
 
+---
+
 ## Environmental Storytelling
 
 Continuing with the idea of our minimalistic storytelling, I started delving into Environmental Storytelling. I worked on some different stuff that was used throughout most of the scenes, such as... <br>
