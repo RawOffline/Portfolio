@@ -1,16 +1,61 @@
 # Parenthood
 
-| Explanation | Example |
+| Squish and Stretch | Example |
 | --- | --- |
-| x | Squish and Squash gif |
+| We wanted a bit of bounce and fluidity in our characters. So I wrote this 'Squish and Stretch' script to make them more dynamic and expressive. | <img src="/Gifs/Parenthood_SaS.gif" alt="References" width="200" height="auto"> |
 
 <details>
-<summary>Squish and Squash</summary>
+<summary>SquishAndStretch.cs</summary>
+
+```cs
+public class SquishAndStretch : MonoBehaviour
+{
+    public Transform Sprite;
+    public float Stretch = 0.1f;
+    [SerializeField] private Transform squashParent;
+
+    private Rigidbody2D _rigidbody;
+    private Vector3 _originalScale;
+
+    private void Start()
+    {
+        _rigidbody = GetComponent<Rigidbody2D>();
+        _originalScale = Sprite.transform.localScale;
+
+        if (!squashParent)
+            squashParent = new GameObject($"_squash_{name}").transform;
+    }
+
+    private void Update()
+    {
+        Sprite.parent = transform;
+        Sprite.localPosition = Vector3.zero;
+        Sprite.localScale = _originalScale;
+        Sprite.localRotation = Quaternion.identity;
+
+        squashParent.localScale = Vector3.one;
+        squashParent.position = transform.position;
+
+        Vector3 velocity = _rigidbody.velocity;
+
+        if (velocity.sqrMagnitude > 0.01f)
+            squashParent.rotation = Quaternion.FromToRotation(Vector3.right, velocity);
+
+        float scaleX = 1.0f + (velocity.magnitude * Stretch);
+        float scaleY = 1.0f / scaleX;
+
+        Sprite.parent = squashParent;
+        squashParent.localScale = new Vector3(scaleX, scaleY, 1.0f);
+    }
+}
+
+
+```
 </details>
 
 ---
 
-| Explanation | Example |
+| Follow | Example |
 | --- | --- |
 | The first thing I worked on in this project was the Follow mechanic. When the player presses E, the parent calls out for their child, who comes running to them. <br> <br> I wanted to build this in a way that feels light-hearted but also sporadic (like a kid). The method that really nailed this for me was by using random jump intervals and force, while keeping the values quite low. Once the child has catched up with their parent, they're back to normal. <br> <br> _If you time it perfectly, the child might land on top of the parents head!_ | <img src="/Gifs/Parenthood_Follow.gif" alt="References" width="400" height="auto"> |
 
@@ -113,7 +158,7 @@ public class Follow : MonoBehaviour
 
 ---
 
-| Explanation | Example |
+| Expand Light | Example |
 | --- | --- |
 | Continuing with the Follow function and the parent _calling_ out for their child. <br> <br> We wanted to make the call visible but still minimal, to make sure that it fits the theme that we're going for. So I went with a simple but effective increase of light around the characters. <br> <br> The light gradually increases, and once it reaches maxIntensity, it stays at that value for a very short duration and then quickly decreases. | <img src="/Gifs/Parenthood_Light.gif" alt="References" width="400" height="auto"> |
 
