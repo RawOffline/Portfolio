@@ -7,7 +7,7 @@ Engine:     Unreal Engine 5
 Genre:      First-Person Parkour
 Team:       4 Programmers, 4 Artists
 ```
-Swift G4 is a First-Person Parkour game heavily inspired by [Mirror's Edge](https://store.steampowered.com/app/17410/Mirrors_Edge/). <br> <br> The difference here is: You're sent to different timelines that needs to be eradicated. The way you do so is by activating a machine that will explode after a few seconds. In turn, you have to outrun the explosion by parkouring _(Running, Jumping, Vaulting, Climbing, Sliding and Wall Running)_ through each timeline and keep your momentum going. <br> <br> My main role in Swift G4 was the **Level Designer**, so here I'll mostly talk about my process and the mentality behind my choices.
+Swift G4 is a First-Person Parkour game heavily inspired by [Mirror's Edge](https://store.steampowered.com/app/17410/Mirrors_Edge/). <br> <br> The difference here is: You're sent to different post-apocalyptic timelines that needs to be eradicated. The way you do so is by activating a machine that will explode after a few seconds. In turn, you have to outrun the explosion by parkouring _(Running, Jumping, Vaulting, Climbing, Sliding and Wall Running)_ through each timeline and keep your momentum going. <br> <br> My main role in Swift G4 was the **Level Designer**, so here I'll mostly talk about my process and the mentality behind my choices.
 
 <table>
   <tr>
