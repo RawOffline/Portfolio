@@ -49,7 +49,7 @@ Team:       3 Programmers, 3 Artists
 
 Parenthood is a game about... Parenthood! It's a 2D Platformer that's meant to focus on the journey of a parent and their child. <br> <br> For more information about Parenthood and my contribution, click [here](/Parenthood)!
 
-## Existential Crisis
+## [Existential Crisis](/ExistentialCrisis) &nbsp; ← Click here!
 
 ```
 Duration:   2024 (4 weeks) — 4th Project
@@ -67,6 +67,8 @@ Team:       Solo Project
     <td width="50%"><img src="/Gifs/ExistentialCrisis_3.gif" /></td>
   </tr>
 </table>
+
+Existential Crisis is an experiment of camera angles, inspired by [Resident Evil](https://en.wikipedia.org/wiki/Resident_Evil) and [Silent Hill](https://en.wikipedia.org/wiki/Silent_Hill). <br> <br> For more information about Existential Crisis and my contribution, click [here](/ExistentialCrisis)!
 
 # Smaller Projects
 ---
