@@ -28,7 +28,6 @@ Team:       4 Programmers, 4 Artists
 Swift G4 is a First-Person Parkour game heavily inspired by [Mirror's Edge](https://store.steampowered.com/app/17410/Mirrors_Edge/). <br> <br> For more information about Swift G4 and my contribution, click [here](/SwiftG4)!
 
 ## [Parenthood](/Parenthood) &nbsp; ← Click here!
-[itch](https://yrgo-game-creator.itch.io/parenthood) [youtube](https://www.youtube.com/watch?v=uss46DK8tEI)
 
 ```
 Developed:  11/2023 - 01/2024 (7 weeks) — 3rd Project
@@ -36,6 +35,7 @@ Engine:     Unity
 Genre:      2D Casual Platformer
 Team:       3 Programmers, 3 Artists
 ```
+[itch](https://yrgo-game-creator.itch.io/parenthood) [youtube](https://www.youtube.com/watch?v=uss46DK8tEI) <br>
 <table>
   <tr>
     <td width="50%"><img src="/Images/Parenthood_1.jpg" /></td>
@@ -93,7 +93,6 @@ Team:       3 Programmers, 2 Artists
 </table>
 
 ## KaBOOMkins
-[itch](https://selmas.itch.io/kaboomkin)
 
 ```
 Duration:   2023 (1 week) — 1st Project
@@ -101,6 +100,7 @@ Engine:     Unity
 Genre:      2D Top-Down Shooter
 Team:       3 Programmers, 2 Artists
 ```
+[itch](https://selmas.itch.io/kaboomkin) <br>
 <table>
   <tr>
     <td width="50%"><img src="/Gifs/KaBOOMkins_1.gif" /></td>
