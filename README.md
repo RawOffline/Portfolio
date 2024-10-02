@@ -25,7 +25,7 @@ Team:       4 Programmers, 4 Artists
   </tr>
 </table>
 
-Swift G4 is a First-Person Parkour game heavily inspired by [Mirror's Edge](https://store.steampowered.com/app/17410/Mirrors_Edge/). <br> <br> For more information about Swift G4 and my contribution, click [here](/SwiftG4)!
+Swift G4 is a First-Person Parkour game heavily inspired by [Mirror's Edge](https://store.steampowered.com/app/17410/Mirrors_Edge/). <br> <br> For more information about Swift G4 and my Level Design, click [here](/SwiftG4)!
 
 ## [Parenthood](/Parenthood) &nbsp; ← Click here!
 
@@ -68,7 +68,7 @@ Team:       Solo Project
   </tr>
 </table>
 
-Existential Crisis is an experiment of camera angles, inspired by [Resident Evil](https://en.wikipedia.org/wiki/Resident_Evil) and [Silent Hill](https://en.wikipedia.org/wiki/Silent_Hill). <br> <br> For more information about Existential Crisis and my contribution, click [here](/ExistentialCrisis)!
+Existential Crisis is an experiment of camera angles, inspired by [Resident Evil](https://en.wikipedia.org/wiki/Resident_Evil) and [Silent Hill](https://en.wikipedia.org/wiki/Silent_Hill). <br> <br> For more information about Existential Crisis, click [here](/ExistentialCrisis)!
 
 # Smaller Projects
 ---
