@@ -73,7 +73,7 @@ Existential Crisis is an experiment of camera angles, inspired by [Resident Evil
 # Smaller Projects
 ---
 
-## Wick The Flame
+## [Wick The Flame](/WickTheFlame) &nbsp; ← Click here!
 
 ```
 Duration:   2023 (1 week) — 2nd Project
@@ -91,6 +91,8 @@ Team:       3 Programmers, 2 Artists
     <td width="50%"><img src="/Gifs/WickTheFlame_4.gif" /></td>
   </tr>
 </table>
+
+You lost your little brother in a dark cave... find him! <br> <br> For more information about Wick The Flame and my contribution, click [here](/WickTheFlame)!
 
 ## KaBOOMkins
 
