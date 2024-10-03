@@ -109,3 +109,5 @@ Team:       3 Programmers, 2 Artists
     <td width="50%"><img src="/Gifs/KaBOOMkins_2.gif" /></td>
   </tr>
 </table>
+
+The pumpkins have awoken... oh no... _not again._ Shoot them with your corn-gun before they get you!
